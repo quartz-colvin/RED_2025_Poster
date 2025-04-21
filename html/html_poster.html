@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Title here</title>
+    <style type="text/css">code{white-space: pre;}</style>
+    <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    </style>
+    <link rel="stylesheet" href="drposter_files//drposter.css" />
+    <link rel="stylesheet" href="custom.css"/>
+    
+</head>
+<body>
+<div class="slides ">
+
+<header>
+    <h1 class="title"><p>Title here</p></h1>
+    <h2 class="author"><p><em>Author One</em> </br> Rutgers University </br> <a href="mailto:email@rutgers.edu">email@rutgers.edu</a></p></h2>
+</header>
+
+<div id="section" class="section level1 col-2 theme-minimalist">
+<h1></h1>
+<div id="intro" class="section level2">
+<h2>Intro</h2>
+<div id="present-study" class="section level3">
+<h3>Present study</h3>
+<ul>
+<li>This is an itemized list</li>
+<li>It can contain as many items as you like</li>
+</ul>
+</div>
+<div id="previous-studies" class="section level3">
+<h3>Previous studies</h3>
+<p>References are cited as numbers. Here are a few examples. Previous studies found that certain things happen . Another person found that another thing happened , but some people don’t agree with the results .</p>
+<ul>
+<li>Itemized lists</li>
+<li>Can also be nested</li>
+<li>Like this</li>
+<li>and this
+<ul>
+<li>and this</li>
+<li>and this</li>
+</ul></li>
+</ul>
+</div>
+<div id="research-questions" class="section level3">
+<h3>Research Questions</h3>
+<ol style="list-style-type: decimal">
+<li>We can also make numbered lists</li>
+<li>Which can also be nested</li>
+<li>These are good for your hypotheses</li>
+<li>another item</li>
+</ol>
+</div>
+</div>
+<div id="method" class="section level2">
+<h2>Method</h2>
+<div id="materials" class="section level3">
+<h3>Materials</h3>
+<ul>
+<li>Materials used</li>
+<li>Participants</li>
+<li>Stimuli</li>
+<li>Etc.</li>
+<li>item</li>
+</ul>
+</div>
+<div id="procedure" class="section level3">
+<h3>Procedure</h3>
+<ul>
+<li>This is what we did</li>
+<li>This is how we did it</li>
+<li>So and so did it this way too</li>
+<li>Some examples here would be handy</li>
+<li>item</li>
+</ul>
+</div>
+<div id="analysis" class="section level3">
+<h3>Analysis</h3>
+<ul>
+<li>The data were like this…</li>
+<li>This is how we analyzed it.</li>
+<li>So and so did this too</li>
+<li>This is the best way</li>
+<li>Here is an example…</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dv <span class="op">~</span><span class="st"> </span>iv1 <span class="op">+</span><span class="st"> </span>iv2 <span class="op">+</span><span class="st"> </span>(<span class="dv">1</span> <span class="op">+</span><span class="st"> </span>iv1 <span class="op">|</span><span class="st"> </span>id)</code></pre></div>
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#pdkcqnaqnf .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  /* table.background.color */
+  width: auto;
+  /* table.width */
+  border-top-style: solid;
+  /* table.border.top.style */
+  border-top-width: 2px;
+  /* table.border.top.width */
+  border-top-color: #A8A8A8;
+  /* table.border.top.color */
+}
+
+#pdkcqnaqnf .gt_heading {
+  background-color: #FFFFFF;
+  /* heading.background.color */
+  border-bottom-color: #FFFFFF;
+}
+
+#pdkcqnaqnf .gt_title {
+  color: #000000;
+  font-size: 125%;
+  /* heading.title.font.size */
+  padding-top: 4px;
+  /* heading.top.padding */
+  padding-bottom: 1px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#pdkcqnaqnf .gt_subtitle {
+  color: #000000;
+  font-size: 85%;
+  /* heading.subtitle.font.size */
+  padding-top: 1px;
+  padding-bottom: 4px;
+  /* heading.bottom.padding */
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#pdkcqnaqnf .gt_bottom_border {
+  border-bottom-style: solid;
+  /* heading.border.bottom.style */
+  border-bottom-width: 2px;
+  /* heading.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* heading.border.bottom.color */
+}
+
+#pdkcqnaqnf .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#pdkcqnaqnf .gt_col_heading {
+  color: #000000;
+  background-color: #FFFFFF;
+  /* column_labels.background.color */
+  font-size: 16px;
+  /* column_labels.font.size */
+  font-weight: initial;
+  /* column_labels.font.weight */
+  vertical-align: middle;
+  padding: 10px;
+  margin: 10px;
+}
+
+#pdkcqnaqnf .gt_sep_right {
+  border-right: 5px solid #FFFFFF;
+}
+
+#pdkcqnaqnf .gt_group_heading {
+  padding: 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  /* stub_group.background.color */
+  font-size: 16px;
+  /* stub_group.font.size */
+  font-weight: initial;
+  /* stub_group.font.weight */
+  border-top-style: solid;
+  /* stub_group.border.top.style */
+  border-top-width: 2px;
+  /* stub_group.border.top.width */
+  border-top-color: #A8A8A8;
+  /* stub_group.border.top.color */
+  border-bottom-style: solid;
+  /* stub_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* stub_group.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* stub_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#pdkcqnaqnf .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #000000;
+  background-color: #FFFFFF;
+  /* stub_group.background.color */
+  font-size: 16px;
+  /* stub_group.font.size */
+  font-weight: initial;
+  /* stub_group.font.weight */
+  border-top-style: solid;
+  /* stub_group.border.top.style */
+  border-top-width: 2px;
+  /* stub_group.border.top.width */
+  border-top-color: #A8A8A8;
+  /* stub_group.border.top.color */
+  border-bottom-style: solid;
+  /* stub_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* stub_group.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* stub_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#pdkcqnaqnf .gt_striped {
+  background-color: #f2f2f2;
+}
+
+#pdkcqnaqnf .gt_row {
+  padding: 10px;
+  /* row.padding */
+  margin: 10px;
+  vertical-align: middle;
+}
+
+#pdkcqnaqnf .gt_stub {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #A8A8A8;
+  padding-left: 12px;
+}
+
+#pdkcqnaqnf .gt_stub.gt_row {
+  background-color: #FFFFFF;
+}
+
+#pdkcqnaqnf .gt_summary_row {
+  background-color: #FFFFFF;
+  /* summary_row.background.color */
+  padding: 6px;
+  /* summary_row.padding */
+  text-transform: inherit;
+  /* summary_row.text_transform */
+}
+
+#pdkcqnaqnf .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+}
+
+#pdkcqnaqnf .gt_table_body {
+  border-top-style: solid;
+  /* field.border.top.style */
+  border-top-width: 2px;
+  /* field.border.top.width */
+  border-top-color: #A8A8A8;
+  /* field.border.top.color */
+  border-bottom-style: solid;
+  /* field.border.bottom.style */
+  border-bottom-width: 2px;
+  /* field.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* field.border.bottom.color */
+}
+
+#pdkcqnaqnf .gt_footnote {
+  font-size: 90%;
+  /* footnote.font.size */
+  padding: 4px;
+  /* footnote.padding */
+}
+
+#pdkcqnaqnf .gt_sourcenote {
+  font-size: 90%;
+  /* sourcenote.font.size */
+  padding: 4px;
+  /* sourcenote.padding */
+}
+
+#pdkcqnaqnf .gt_center {
+  text-align: center;
+}
+
+#pdkcqnaqnf .gt_left {
+  text-align: left;
+}
+
+#pdkcqnaqnf .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#pdkcqnaqnf .gt_font_normal {
+  font-weight: normal;
+}
+
+#pdkcqnaqnf .gt_font_bold {
+  font-weight: bold;
+}
+
+#pdkcqnaqnf .gt_font_italic {
+  font-style: italic;
+}
+
+#pdkcqnaqnf .gt_super {
+  font-size: 65%;
+}
+
+#pdkcqnaqnf .gt_footnote_glyph {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="pdkcqnaqnf" style="overflow-x:auto;"><!--gt table start-->
+<table class='gt_table'>
+<tr>
+<th class='gt_col_heading gt_left' rowspan='1' colspan='1'> </th>
+<th class='gt_col_heading gt_left' rowspan='1' colspan='1'>Lead</th>
+<th class='gt_col_heading gt_left' rowspan='1' colspan='1'>Short-lag</th>
+<th class='gt_col_heading gt_left' rowspan='1' colspan='1'>Long-lag</th>
+</tr>
+<tbody class='gt_table_body'>
+<tr>
+<td class='gt_row gt_left'>English</td>
+<td class='gt_row gt_left'></td>
+<td class='gt_row gt_left'>/bdg/</td>
+<td class='gt_row gt_left'>/ptk/</td>
+</tr>
+<tr>
+<td class='gt_row gt_left gt_striped'>Spanish</td>
+<td class='gt_row gt_left gt_striped'>/bdg/</td>
+<td class='gt_row gt_left gt_striped'>/ptk/</td>
+<td class='gt_row gt_left gt_striped'></td>
+</tr>
+</tbody>
+</table>
+<!--gt table end-->
+</div>
+</div>
+</div>
+</div>
+<div id="section-1" class="section level1 col-2 theme-minimalist">
+<h1></h1>
+<div id="results" class="section level2">
+<h2>Results</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">cars <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">gather</span>(var, val) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">group_by</span>(var) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">mean_value =</span> <span class="kw">mean</span>(val), <span class="dt">sd_value =</span> <span class="kw">sd</span>(val)) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span>gt</code></pre></div>
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#tjnsbxhsik .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  /* table.background.color */
+  width: auto;
+  /* table.width */
+  border-top-style: solid;
+  /* table.border.top.style */
+  border-top-width: 2px;
+  /* table.border.top.width */
+  border-top-color: #A8A8A8;
+  /* table.border.top.color */
+}
+
+#tjnsbxhsik .gt_heading {
+  background-color: #FFFFFF;
+  /* heading.background.color */
+  border-bottom-color: #FFFFFF;
+}
+
+#tjnsbxhsik .gt_title {
+  color: #000000;
+  font-size: 125%;
+  /* heading.title.font.size */
+  padding-top: 4px;
+  /* heading.top.padding */
+  padding-bottom: 1px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#tjnsbxhsik .gt_subtitle {
+  color: #000000;
+  font-size: 85%;
+  /* heading.subtitle.font.size */
+  padding-top: 1px;
+  padding-bottom: 4px;
+  /* heading.bottom.padding */
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#tjnsbxhsik .gt_bottom_border {
+  border-bottom-style: solid;
+  /* heading.border.bottom.style */
+  border-bottom-width: 2px;
+  /* heading.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* heading.border.bottom.color */
+}
+
+#tjnsbxhsik .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#tjnsbxhsik .gt_col_heading {
+  color: #000000;
+  background-color: #FFFFFF;
+  /* column_labels.background.color */
+  font-size: 16px;
+  /* column_labels.font.size */
+  font-weight: initial;
+  /* column_labels.font.weight */
+  vertical-align: middle;
+  padding: 10px;
+  margin: 10px;
+}
+
+#tjnsbxhsik .gt_sep_right {
+  border-right: 5px solid #FFFFFF;
+}
+
+#tjnsbxhsik .gt_group_heading {
+  padding: 8px;
+  color: #000000;
+  background-color: #FFFFFF;
+  /* stub_group.background.color */
+  font-size: 16px;
+  /* stub_group.font.size */
+  font-weight: initial;
+  /* stub_group.font.weight */
+  border-top-style: solid;
+  /* stub_group.border.top.style */
+  border-top-width: 2px;
+  /* stub_group.border.top.width */
+  border-top-color: #A8A8A8;
+  /* stub_group.border.top.color */
+  border-bottom-style: solid;
+  /* stub_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* stub_group.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* stub_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#tjnsbxhsik .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #000000;
+  background-color: #FFFFFF;
+  /* stub_group.background.color */
+  font-size: 16px;
+  /* stub_group.font.size */
+  font-weight: initial;
+  /* stub_group.font.weight */
+  border-top-style: solid;
+  /* stub_group.border.top.style */
+  border-top-width: 2px;
+  /* stub_group.border.top.width */
+  border-top-color: #A8A8A8;
+  /* stub_group.border.top.color */
+  border-bottom-style: solid;
+  /* stub_group.border.bottom.style */
+  border-bottom-width: 2px;
+  /* stub_group.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* stub_group.border.bottom.color */
+  vertical-align: middle;
+}
+
+#tjnsbxhsik .gt_striped {
+  background-color: #f2f2f2;
+}
+
+#tjnsbxhsik .gt_row {
+  padding: 10px;
+  /* row.padding */
+  margin: 10px;
+  vertical-align: middle;
+}
+
+#tjnsbxhsik .gt_stub {
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #A8A8A8;
+  padding-left: 12px;
+}
+
+#tjnsbxhsik .gt_stub.gt_row {
+  background-color: #FFFFFF;
+}
+
+#tjnsbxhsik .gt_summary_row {
+  background-color: #FFFFFF;
+  /* summary_row.background.color */
+  padding: 6px;
+  /* summary_row.padding */
+  text-transform: inherit;
+  /* summary_row.text_transform */
+}
+
+#tjnsbxhsik .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+}
+
+#tjnsbxhsik .gt_table_body {
+  border-top-style: solid;
+  /* field.border.top.style */
+  border-top-width: 2px;
+  /* field.border.top.width */
+  border-top-color: #A8A8A8;
+  /* field.border.top.color */
+  border-bottom-style: solid;
+  /* field.border.bottom.style */
+  border-bottom-width: 2px;
+  /* field.border.bottom.width */
+  border-bottom-color: #A8A8A8;
+  /* field.border.bottom.color */
+}
+
+#tjnsbxhsik .gt_footnote {
+  font-size: 90%;
+  /* footnote.font.size */
+  padding: 4px;
+  /* footnote.padding */
+}
+
+#tjnsbxhsik .gt_sourcenote {
+  font-size: 90%;
+  /* sourcenote.font.size */
+  padding: 4px;
+  /* sourcenote.padding */
+}
+
+#tjnsbxhsik .gt_center {
+  text-align: center;
+}
+
+#tjnsbxhsik .gt_left {
+  text-align: left;
+}
+
+#tjnsbxhsik .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#tjnsbxhsik .gt_font_normal {
+  font-weight: normal;
+}
+
+#tjnsbxhsik .gt_font_bold {
+  font-weight: bold;
+}
+
+#tjnsbxhsik .gt_font_italic {
+  font-style: italic;
+}
+
+#tjnsbxhsik .gt_super {
+  font-size: 65%;
+}
+
+#tjnsbxhsik .gt_footnote_glyph {
+  font-style: italic;
+  font-size: 65%;
+}
+</style>
+<div id="tjnsbxhsik" style="overflow-x:auto;"><!--gt table start-->
+<table class='gt_table'>
+<tr>
+<th class='gt_col_heading gt_left' rowspan='1' colspan='1'>var</th>
+<th class='gt_col_heading gt_right' rowspan='1' colspan='1'>mean_value</th>
+<th class='gt_col_heading gt_right' rowspan='1' colspan='1'>sd_value</th>
+</tr>
+<tbody class='gt_table_body'>
+<tr>
+<td class='gt_row gt_left'>dist</td>
+<td class='gt_row gt_right'>42.98</td>
+<td class='gt_row gt_right'>25.769377</td>
+</tr>
+<tr>
+<td class='gt_row gt_left gt_striped'>speed</td>
+<td class='gt_row gt_right gt_striped'>15.40</td>
+<td class='gt_row gt_right gt_striped'>5.287644</td>
+</tr>
+</tbody>
+</table>
+<!--gt table end-->
+</div>
+<p><img src="html_poster_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="conclusion" class="section level2">
+<h2>Conclusion</h2>
+<div id="summary" class="section level3">
+<h3>Summary</h3>
+<ul>
+<li>The analysis showed A</li>
+<li>The analysis showed B too.</li>
+<li>And don’t forget about C, which was also important.</li>
+</ul>
+</div>
+<div id="conclusion-1" class="section level3">
+<h3>Conclusion</h3>
+<ul>
+<li>We learned X, Y, and Z.</li>
+<li>This research is in align with A and B</li>
+<li>But differs from what this other guy found</li>
+<li>Future research should do more things</li>
+</ul>
+</div>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
+<p>Take a look around the project example for a tour of useful column classes, etc.</p>
+</div>
+<div id="ackowledgements" class="section level2">
+<h2>Ackowledgements</h2>
+<p>Somebody probably helped you. Thank them here. :)</p>
+</div>
+</div>
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,290 @@
+---
+documentclass: ../includes/tex/baposter
+classoption: [a0paper,landscape,columns=3]
+output:
+  pdf_document:
+    includes:
+      in_header: ../includes/tex/header.tex
+    keep_tex: yes
+    template: ../includes/tex/my_template.tex
+---
+
+
+<!-- Set background image ---------------------------------------------------->
+\background{
+\begin{tikzpicture}[remember picture,overlay]
+  \draw (current page.north west)+(-2em,2em) node[anchor=north west]
+  {\includegraphics[height=1.1\textheight, width=1.1\textwidth]{../includes/figs/white}};
+\end{tikzpicture}
+  }
+
+
+
+<!-- Poster details ---------------------------------------------------------->
+\begin{poster}{
+  grid=false,
+  borderColor=bordercol,         % Border color of content boxes
+  headerColorOne=headercol1,     % bg color for header in content boxes (l side)
+  headerColorTwo=headercol2,     % bg color for header in content boxes (r side)
+  headerFontColor=headerfontcol, % Text color for header text in content boxes
+  boxColorOne=boxcolor,          % bg color for content in content boxes
+  headershape=roundedright,      % Specify rounded corner in content box headers
+  headerfont=\Large\sf\bf,       % Font modifiers for text in content box headers
+  textborder=rectangle,
+  background=user,
+  headerborder=closed,           % Set to closed for a line under content box headers
+  boxshade=plain
+}
+{}
+%
+% TITLE AND AUTHOR NAME -------------------------------------------------------
+%
+{
+ \sf\bf 
+ \phantom{.} \\ 
+ \vspace{0.2in}
+ \LARGE{Title here} \\ 
+ \Large{Subtitle here}
+}
+{
+ \vspace{.6em} 
+ \textbf{Author1 Name}, 
+ \textbf{Author2 Name} \\ 
+ \smaller{Rutgers University \\ New Brunswick, NJ, U.S.A.} \\
+ {\vspace{-0.4in}\hspace{-10.40in}
+  \includegraphics[scale=0.3]{../includes/figs/ru_shield2}\phantom{.}} \\
+ {\vspace{-0.20in}\smaller youremail@rutgers.edu} \\
+ {\vspace{-0.9in}\hspace{11.05in}
+  \includegraphics[scale=0.12]{../includes/figs/rap-group}}\vspace{-.6in}
+}
+
+
+
+%
+% INTRODUCTION ----------------------------------------------------------------
+%
+
+\headerbox{Introduction}{name=introduction,column=0,row=.1}{
+
+
+\vspace{.1in}
+\textbf{Present study}:
+
+\begin{itemize} 
+  \item This is an itemized list
+  \item It can contain as many items as you like
+\end{itemize}
+
+\textbf{Previous studies}:  
+\vspace{.05in}
+
+References are cited as numbers. Here are a few examples. 
+Previous studies found that certain things happen \cite{cho2007prosodically}. 
+Another person found that another thing happened \cite{guion2003vowel}, but 
+some people don't agree with the results \cite{amengual2012interlingual}.
+
+\begin{itemize}
+  \item Itemized lists
+  \item Can also be nested
+  \begin{itemize}
+    \item Like this
+    \item and this
+    \begin{itemize} 
+      \item and this
+      \item and this
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\vspace{.1in}
+
+\textbf{Research Questions}:
+
+\begin{enumerate} 
+  \item We can also make numbered lists
+  \item Which can also be nested
+  \begin{enumerate}
+    \item These are good for your hypotheses
+    \item another item
+  \end{enumerate}
+\end{enumerate}
+
+\vspace{1.9in}
+
+}
+
+
+
+
+%
+%	MATERIALS AND METHODS -------------------------------------------------------
+%
+
+\headerbox{Method}{name=methods,column=1,row=.1}{
+
+\vspace{.1in}
+\textbf{Materials}
+
+\begin{itemize}
+	\item Materials used
+	\item Participants
+	\item Stimuli
+	\item Etc.
+	\item item
+\end{itemize}
+
+\vspace{.05in}
+\textbf{Procedure}
+
+\begin{itemize}
+	\item This is what we did
+	\item This is how we did it
+	\item So and so did it this way too
+	\item Some examples here would be handy
+	\item item
+\end{itemize}
+
+\vspace{.05in}
+\textbf{Analysis}
+
+\begin{itemize}
+	\item The data were like this...
+	\item This is how we analyzed it.
+	\item So and so did this too
+	\item This is the best way
+	\item Here is an example...
+\end{itemize}
+
+\vspace{.1in}
+
+\begin{center}
+\captionof{table}{This is a table caption.}
+\vspace{.15in}
+	\begin{tabular}{@{}cccc@{}}
+	\hline \\ [-2ex]
+	        & Lead            & Short-lag       & Long-lag \\ [1ex]	
+	\hline \\ [-2ex]
+	English &                 & \textipa{/bdg/} & \textipa{/ptk/} \\ [1ex]
+	Spanish & \textipa{/bdg/} & \textipa{/ptk/} & \\ [1ex]
+	\hline
+	\end{tabular}
+\end{center}
+
+\vspace{.375in}
+
+}
+
+
+
+
+
+
+%
+%	RESULTS ---------------------------------------------------------------------
+%
+
+\headerbox{Results}{name=results,column=2,row=.1}{ % To reduce this block to 1 column width, remove 'span=2'
+
+\vspace{.2in}
+
+\begin{center}
+	\captionof{figure}{Here is a figure caption. Figure captions can span more than one line. The width and justification is taken care of by the \emph{caption} package (in the preamble).}
+	\vspace{.15in}
+	\includegraphics[width=.9\textwidth]{placeholder.jpg}
+\end{center}
+
+\vspace{.15in}
+
+\begin{center}
+\captionof{figure}{You can place two figures side-by-side. Refer one picture (left) and then to the other (right).}
+\vspace{.15in}
+\includegraphics[width=0.45\linewidth]{placeholder.jpg}
+\includegraphics[width=0.45\linewidth]{placeholder.jpg}
+\end{center}
+
+\vspace{.15in}
+
+\begin{itemize}
+	\item Put some numbers here
+	\item (F(1,15) = 14.34; p < 0.05)
+	\item Everything was significant
+	\item item
+	\item item
+\end{itemize}
+
+\vspace{.55in}
+
+}
+
+
+
+
+
+%
+%	CONCLUSION ------------------------------------------------------------------
+%
+
+\headerbox{Conclusion}{name=conclusion,column=3,row=.1}{
+
+% \vspace{.1in}
+\textbf{Summary}
+
+\begin{itemize}
+	\item The analysis showed A
+	\item The analysis showed B too.
+	\item And don't forget about C, which was also important.
+\end{itemize}
+
+\textbf{Conclusion}
+
+\begin{itemize}
+	\item We learned X, Y, and Z.
+	\item This research is in align with A and B
+	\item But differs from what this other guy found
+	\item Future research should do more things
+\end{itemize}
+
+\vspace{.03in}
+}
+
+
+
+
+
+
+
+
+%
+%	REFERENCES ------------------------------------------------------------------
+%
+
+\headerbox{Selected references}{name=references,column=3,below=conclusion}{
+
+% \smaller % Reduce the font size in this block
+\renewcommand{\section}[2]{\vskip 0.05em} % Get rid of the default "References" section title
+% \nocite{*} % Insert publications even if they are not cited in the poster
+
+\bibliographystyle{unsrt}
+\bibliography{../includes/bib/IEEEabrv,../includes/bib/SpeePros} % Use sample.bib as the bibliography file
+\vspace{0.3in}
+}
+
+
+%
+%	ACKNOWLEDGEMENTS ------------------------------------------------------------
+%
+
+\headerbox{Acknowledgements}{name=acknowledgements,column=3,below=references}{
+
+\vspace{.1in}
+
+% \smaller % Reduce the font size in this block
+Somebody probably helped you. Thank them here. :)
+
+\vspace{0.35in}
+
+} 
+
+
+
+\end{poster}

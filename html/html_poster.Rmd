@@ -1,0 +1,153 @@
+---
+title: | 
+  Title here 
+author: |
+  *Author One* </br> Rutgers University </br> email@rutgers.edu
+header-includes:
+   - \usepackage{tipa}
+output:
+  drposter::drposter_poster:
+    self_contained: false
+    css: custom.css
+    fill_page: false
+---
+
+```{r, load-packages, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(knitr)
+library(gt)
+```
+
+
+
+
+# {.col-2 .theme-minimalist}
+
+## Intro
+
+### Present study
+
+- This is an itemized list
+- It can contain as many items as you like
+
+### Previous studies
+
+References are cited as numbers. Here are a few examples. 
+Previous studies found that certain things happen \cite{cho2007prosodically}. 
+Another person found that another thing happened \cite{guion2003vowel}, but 
+some people don't agree with the results \cite{amengual2012interlingual}.
+
+- Itemized lists
+- Can also be nested
+  - Like this
+  - and this
+    - and this
+    - and this
+
+### Research Questions
+
+1. We can also make numbered lists
+2. Which can also be nested
+  1. These are good for your hypotheses
+  2. another item
+
+
+
+
+
+
+
+## Method
+
+### Materials
+
+- Materials used
+- Participants
+- Stimuli
+- Etc.
+- item
+
+### Procedure
+
+- This is what we did
+- This is how we did it
+- So and so did it this way too
+- Some examples here would be handy
+- item
+
+### Analysis
+
+- The data were like this...
+- This is how we analyzed it.
+- So and so did this too
+- This is the best way
+- Here is an example...
+
+```{r, formula, eval=FALSE}
+dv ~ iv1 + iv2 + (1 + iv1 | id)
+```
+
+
+```{r, test-table, echo=FALSE}
+tribble(
+     ~' ',  ~'Lead', ~'Short-lag', ~'Long-lag',
+'English',       '',      '/bdg/',     '/ptk/',
+'Spanish',  '/bdg/',      '/ptk/',          ''
+) %>% 
+  gt()
+```
+
+
+
+
+
+
+
+
+
+# {.col-2 .theme-minimalist}
+
+## Results
+
+```{r}
+cars %>% 
+  gather(var, val) %>% 
+  group_by(var) %>% 
+  summarize(mean_value = mean(val), sd_value = sd(val)) %>% 
+  gt
+```
+
+```{r, echo=FALSE}
+ggplot(mtcars, aes(x = drat, y = mpg)) + 
+  geom_point() + 
+  geom_smooth(method = "lm")
+```
+
+## Conclusion
+
+### Summary
+
+- The analysis showed A
+- The analysis showed B too.
+- And don't forget about C, which was also important.
+
+### Conclusion
+
+- We learned X, Y, and Z.
+- This research is in align with A and B
+- But differs from what this other guy found
+- Future research should do more things
+
+
+
+
+
+
+## References
+
+Take a look around the project example for a tour of useful column classes, etc.
+
+## Ackowledgements
+
+Somebody probably helped you. Thank them here. :)
+

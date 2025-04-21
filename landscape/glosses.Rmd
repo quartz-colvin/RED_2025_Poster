@@ -1,0 +1,34 @@
+---
+title: "glosses"
+output: html_document
+---
+
+```{r}
+#| label: packages
+
+install.packages(“R Markdown’) 
+install.packages(“knitr”)
+library(R Markdown)
+library(knitter)
+
+
+```
+
+```{r}
+#| label: examples
+
+(@) {#example1} This is an example. As you can see **normal** markdown *inline* ~~formatting~~ [works]{.smallcaps} `here`.
+
+This sentence refers to <#example1>. The following example contains a gloss, notice that it's introduced with `\gll` just like in gb4e.
+
+(@) {#example2}
+    \gll C'est un gloss.
+     [dem.cop]{.smallcaps} a gloss
+     "This is a gloss."
+
+(@) {#example3}
+    1. {#example3sub1} Enumerations within examples are also possible.
+
+    2. And decently intuitive. Labels not required.
+```
+

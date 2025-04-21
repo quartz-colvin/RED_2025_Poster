@@ -1,0 +1,56 @@
+
+/* Header customizations */
+.slides > header {
+  background-image: url(https://raw.githubusercontent.com/jvcasillas/ru_xaringan/master/img/logo/ru_shield2.png), url(https://raw.githubusercontent.com/jvcasillas/hex_stickers/master/stickers/rap-group.png);
+  background-position: 1% 80%, 99% 95%;
+  background-repeat: no-repeat;
+  background-size: 550px, 300px;
+}
+
+
+
+
+
+
+/* colors */
+:root {
+  --header-color: #CC0033;
+}
+
+:root {
+  --my-grey: #5F6A72;
+}
+
+/******** Default theme, including the background gradients ********/
+:root {
+  --other-color-for-h2-gradient: #CC0033;
+}
+
+.level2 {
+	border-radius: var(--block-padding);
+	margin-top: calc(1/2 * var(--h2-height) + var(--inter-block-spacing));  /* Technically might need the border, too */
+	border: 0.25cm solid var(--my-grey);
+}
+
+
+
+
+/******** More minimalist theme using less ink ********/
+.theme-minimalist .level2 h2, .level1 .theme-minimalist.level2 h2 {
+	/* This is really tricky: we need to completely override themes if accepted rule.  Inheritance will only work if things are actually specified */
+	background: none;
+	color: var(--header-color);
+	border-bottom: 0.25cm solid var(--my-grey);
+	border-radius: 0;
+	padding: 0;
+	margin-top: 0;
+	/*height: auto;*/  /* Some rules like this won't be necessary once the default theme is separated into its own theme class */
+	line-height: 2em;
+}
+
+.theme-minimalist .level2, .level1 .theme-minimalist.level2 {
+	border: none;
+	margin-top: var(--inter-block-spacing);
+}
+
+

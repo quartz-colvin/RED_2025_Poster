@@ -1,0 +1,982 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.4.20)  21 APR 2025 10:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./RED_landscape_poster.tex
+(RED_landscape_poster.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(../includes/tex/baposter.cls
+
+LaTeX Warning: You have requested document class `../includes/tex/baposter',
+               but the document class provides `baposter'.
+
+Document Class: baposter 2011/11/26 v2.0 baposter class
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+baposter: Brian Amberg, 2007, 2008, 2009, 2010, 2011 | http://www.brian-amberg.
+de/uni/poster/
+baposter: Reinhold Kainhofer, 2011 | http://reinhold.kainhofer.com/
+\baposter@basepaperwidth=\skip50
+\baposter@basepaperheight=\skip51
+\baposter@basemargin=\skip52
+\baposter@finalpaperwidth=\skip53
+\baposter@finalpaperheight=\skip54
+\baposter@finalmargin=\skip55
+\headerheight=\skip56
+\colwidth=\skip57
+\colheight=\skip58
+\baposter@@colspacing=\skip59
+\baposter@box@@cornerradius=\skip60
+\baposter@box@@boxheaderheight=\skip61
+\baposter@box@@boxpadding=\skip62
+\boxstartx=\skip63
+\boxstarty=\skip64
+\boxwidth=\skip65
+\boxheight=\skip66
+\baposter@titleimage@left@width=\skip67
+\baposter@titleimage@right@width=\skip68
+\baposter@titleimage@textwidth=\skip69
+\baposter@box@content=\box51
+\baposter@titleimage@left=\box52
+\baposter@titleimage@title=\box53
+\baposter@titleimage@right=\box54
+Use Packages
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/xkeyval\xkeyval.tex
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/xkeyval\xkvutils.te
+x
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/xkeyval\keyval.tex)
+)
+\XKV@depth=\count195
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count196
+\calc@Bcount=\count197
+\calc@Adimen=\dimen141
+\calc@Bdimen=\dimen142
+\calc@Askip=\skip70
+\calc@Bskip=\skip71
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count198
+\calc@Cskip=\skip72
+) (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/graphics-cfg\color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/graphics-def\pdftex.d
+ef
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/graphics\mathcolor.lt
+x)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/pgf/frontendlayer\tik
+z.sty
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/pgf/basiclayer\pgf.st
+y
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/pgf/utilities\pgfrcs.
+sty
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/utilities\pgfut
+il-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen143
+\pgfutil@tempdimb=\dimen144
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/utilities\pgfut
+il-latex.def
+\pgfutil@abb=\box55
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/utilities\pgfrc
+s.code.tex
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf\pgf.revision.te
+x)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/pgf/basiclayer\pgfcor
+e.sty
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/graphics-cfg\graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/pgf/systemlayer\pgfsy
+s.sty
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/systemlayer\pgf
+sys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/utilities\pgfke
+ys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/utilities\pgfke
+yslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen147
+\pgf@y=\dimen148
+\pgf@xa=\dimen149
+\pgf@ya=\dimen150
+\pgf@xb=\dimen151
+\pgf@yb=\dimen152
+\pgf@xc=\dimen153
+\pgf@yc=\dimen154
+\pgf@xd=\dimen155
+\pgf@yd=\dimen156
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count199
+\c@pgf@countb=\count266
+\c@pgf@countc=\count267
+\c@pgf@countd=\count268
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+\pgf@sys@id@count=\count269
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/systemlayer\pgf
+.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/systemlayer\pgf
+sys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/systemlayer\pgf
+sys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/systemlayer\pgf
+syssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count270
+\pgfsyssoftpath@bigbuffer@items=\count271
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/systemlayer\pgf
+sysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+ore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmath.co
+de.tex
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathuti
+l.code.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathpar
+ser.code.tex
+\pgfmath@dimen=\dimen157
+\pgfmath@count=\count272
+\pgfmath@box=\box56
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathfun
+ctions.code.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathfun
+ctions.basic.code.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathfun
+ctions.trigonometric.code.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathfun
+ctions.random.code.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathfun
+ctions.comparison.code.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathfun
+ctions.base.code.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathfun
+ctions.round.code.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathfun
+ctions.misc.code.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathfun
+ctions.integerarithmetics.code.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathcal
+c.code.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmathflo
+at.code.tex
+\c@pgfmathroundto@lastzeros=\count273
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfint.cod
+e.tex)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+orepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen158
+\pgf@picmaxx=\dimen159
+\pgf@picminy=\dimen160
+\pgf@picmaxy=\dimen161
+\pgf@pathminx=\dimen162
+\pgf@pathmaxx=\dimen163
+\pgf@pathminy=\dimen164
+\pgf@pathmaxy=\dimen165
+\pgf@xx=\dimen166
+\pgf@xy=\dimen167
+\pgf@yx=\dimen168
+\pgf@yy=\dimen169
+\pgf@zx=\dimen170
+\pgf@zy=\dimen171
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+orepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen172
+\pgf@path@lasty=\dimen173
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+orepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen174
+\pgf@shorten@start@additional=\dimen175
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+orescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count274
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+oregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen176
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+oretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen177
+\pgf@pt@y=\dimen178
+\pgf@pt@temp=\dimen179
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+orequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+oreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+orepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+orearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen180
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+oreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen181
+\pgf@sys@shading@range@num=\count275
+\pgf@shadingcount=\count276
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+oreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+oreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box60
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+orelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+oretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+orepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/basiclayer\pgfc
+orerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/modules\pgfmodu
+leshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box61
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/modules\pgfmodu
+leplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/pgf/compatibility\pgf
+comp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen182
+\pgf@nodesepend=\dimen183
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/pgf/compatibility\pgf
+comp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/pgf/utilities\pgffor.
+sty
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/pgf/utilities\pgfkeys
+.sty
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/utilities\pgfke
+ys.code.tex)) (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/pgf/mat
+h\pgfmath.sty
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/math\pgfmath.co
+de.tex))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/utilities\pgffo
+r.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen184
+\pgffor@skip=\dimen185
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries\pgfli
+braryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count277
+\pgfplotmarksize=\dimen186
+)
+\tikz@lastx=\dimen187
+\tikz@lasty=\dimen188
+\tikz@lastxsaved=\dimen189
+\tikz@lastysaved=\dimen190
+\tikz@lastmovetox=\dimen191
+\tikz@lastmovetoy=\dimen192
+\tikzleveldistance=\dimen193
+\tikzsiblingdistance=\dimen194
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count278
+\tikznumberofchildren=\count279
+\tikznumberofcurrentchild=\count280
+\tikz@fig@count=\count281
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/modules\pgfmodu
+lematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count282
+\pgfmatrixcurrentcolumn=\count283
+\pgf@matrix@numberofcolumns=\count284
+)
+\tikz@expandcount=\count285
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/modules\pgfmodu
+ledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen195
+\pgfdecoratedremainingdistance=\dimen196
+\pgfdecoratedinputsegmentcompleteddistance=\dimen197
+\pgfdecoratedinputsegmentremainingdistance=\dimen198
+\pgf@decorate@distancetomove=\dimen199
+\pgf@decorate@repeatstate=\count286
+\pgfdecorationsegmentamplitude=\dimen256
+\pgfdecorationsegmentlength=\dimen257
+)
+\tikz@lib@dec@box=\box66
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries\pgfli
+braryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarysnakes.code.tex
+File: tikzlibrarysnakes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+Package pgf Warning: Snakes have been superseded by decorations. Please use the
+ decoration libraries instead of the snakes library on input line 14.
+
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries/decor
+ations\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries/decor
+ations\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarydecorations.shapes.code.tex
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries/decor
+ations\pgflibrarydecorations.shapes.code.tex)))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+\baposter@movebody=\skip73
+\baposter@basemarginright=\skip74
+\baposter@basemarginleft=\skip75
+Paperwidth=2392.87677pt
+Paperheight=3383.03267pt
+BasePaperwidth=698.73782pt
+BasePaperheight=987.87073pt
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count287
+\Gm@cntv=\count288
+\c@Gm@tempcnt=\count289
+\Gm@bindingoffset=\dimen258
+\Gm@wd@mp=\dimen259
+\Gm@odd@mp=\dimen260
+\Gm@even@mp=\dimen261
+\Gm@layoutwidth=\dimen262
+\Gm@layoutheight=\dimen263
+\Gm@layouthoffset=\dimen264
+\Gm@layoutvoffset=\dimen265
+\Gm@dimlist=\toks31
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/geometry\geometry.cfg
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/pgf/utilities\pgfpage
+s.sty
+Package: pgfpages 2011/01/05 ver 0.02
+\pgf@logicalpages=\count290
+\pgf@firstshipout=\count291
+\pgf@lastshipout=\count292
+\pgf@currentshipout=\count293
+\pgf@cpn=\count294
+\pgf@shipoutnextto=\count295
+\pgfphysicalheight=\dimen266
+\pgfphysicalwidth=\dimen267
+\pgfpages@shipoutbox=\box67
+)
+\pgfpages@box@1=\box68
+) (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen268
+\captionmargin=\dimen269
+\caption@leftmargin=\dimen270
+\caption@rightmargin=\dimen271
+\caption@width=\dimen272
+\caption@indent=\dimen273
+\caption@parindent=\dimen274
+\caption@hangindent=\dimen275
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count296
+\c@continuedfloat=\count297
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen276
+\lightrulewidth=\dimen277
+\cmidrulewidth=\dimen278
+\belowrulesep=\dimen279
+\belowbottomsep=\dimen280
+\aboverulesep=\dimen281
+\abovetopsep=\dimen282
+\cmidrulesep=\dimen283
+\cmidrulekern=\dimen284
+\defaultaddspace=\dimen285
+\@cmidla=\count298
+\@cmidlb=\count299
+\@aboverulesep=\dimen286
+\@belowrulesep=\dimen287
+\@thisruleclass=\count300
+\@lastruleclass=\count301
+\@thisrulewidth=\dimen288
+) (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+) (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/tipa\tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/tipa\t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+Now handling font encoding T3 ...
+... no UTF-8 mapping file for font encoding T3
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 3
+57.
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/base\t1cmss.fd
+File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)))) (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/amsfonts\amssymb
+.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks32
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip76
+\multirow@cntb=\count302
+\multirow@dima=\skip77
+\bigstrutjot=\dimen289
+) (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count303
+\mult@box=\box69
+\multicol@leftmargin=\dimen290
+\c@unbalance=\count304
+\c@collectmore=\count305
+\doublecol@number=\count306
+\multicoltolerance=\count307
+\multicolpretolerance=\count308
+\full@width=\dimen291
+\page@free=\dimen292
+\premulticols=\dimen293
+\postmulticols=\dimen294
+\multicolsep=\skip78
+\multicolbaselineskip=\skip79
+\partial@page=\box70
+\last@line=\box71
+\mc@boxedresult=\box72
+\maxbalancingoverflow=\dimen295
+\mult@rightbox=\box73
+\mult@grightbox=\box74
+\mult@firstbox=\box75
+\mult@gfirstbox=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\c@minrows=\count309
+\c@columnbadness=\count310
+\c@finalcolumnbadness=\count311
+\last@try=\dimen296
+\multicolovershoot=\dimen297
+\multicolundershoot=\dimen298
+\mult@nat@firstbox=\box113
+\colbreak@box=\box114
+\mc@col@check@num=\count312
+) (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/tools\hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen299
+\ar@mcellbox=\box115
+\extrarowheight=\dimen300
+\NC@list=\toks33
+\extratabsurround=\skip80
+\backup@length=\skip81
+\ar@cellbox=\box116
+)
+\everycr=\toks34
+\minrowclearance=\skip82
+\rownum=\count313
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries\pgfli
+braryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen301
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box117
+\pgf@layerboxsaved@background=\box118
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarymindmap.code.tex
+File: tikzlibrarymindmap.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.callouts.code.tex))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box119
+\pgfnodeparttwobox=\box120
+\pgfnodepartthreebox=\box121
+\pgfnodepartfourbox=\box122
+\pgfnodeparttwentybox=\box123
+\pgfnodepartnineteenbox=\box124
+\pgfnodeparteighteenbox=\box125
+\pgfnodepartseventeenbox=\box126
+\pgfnodepartsixteenbox=\box127
+\pgfnodepartfifteenbox=\box128
+\pgfnodepartfourteenbox=\box129
+\pgfnodepartthirteenbox=\box130
+\pgfnodeparttwelvebox=\box131
+\pgfnodepartelevenbox=\box132
+\pgfnodeparttenbox=\box133
+\pgfnodepartninebox=\box134
+\pgfnodeparteightbox=\box135
+\pgfnodepartsevenbox=\box136
+\pgfnodepartsixbox=\box137
+\pgfnodepartfivebox=\box138
+)))
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\enitkv@toks@=\toks35
+\labelindent=\skip83
+\enit@outerparindent=\dimen302
+\enit@toks=\toks36
+\enit@inbox=\box139
+\enit@count@id=\count314
+\enitdp@description=\count315
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/l3backend\l3backend-p
+dftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count316
+\l__pdf_internal_box=\box140
+)
+
+LaTeX Warning: Unused global option(s):
+    [columns=2].
+
+(RED_landscape_poster.aux)
+\openout1 = `RED_landscape_poster.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 51.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 51
+.
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/tipa\t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 51.
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/context/base/mkii\supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count317
+\scratchdimen=\dimen303
+\scratchbox=\box141
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen304
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks38
+)
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/epstopdf-pkg\epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/00miktex\epstopdf-sys
+.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(12.46262pt, 962.9455pt, 12.46262pt)
+* v-part:(T,H,B)=(12.46262pt, 673.81259pt, 12.46262pt)
+* \paperwidth=987.87073pt
+* \paperheight=698.73782pt
+* \textwidth=962.9455pt
+* \textheight=673.81259pt
+* \oddsidemargin=-59.80737pt
+* \evensidemargin=-59.80737pt
+* \topmargin=-96.80737pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+<../includes/figs/white.pdf, id=28, 72.27pt x 72.27pt>
+File: ../includes/figs/white.pdf Graphic file (type pdf)
+<use ../includes/figs/white.pdf>
+Package pdftex.def Info: ../includes/figs/white.pdf  used on input line 96.
+(pdftex.def)             Requested size: 1059.53627pt x 741.40068pt.
+<../includes/figs/ru_shield2.png, id=29, 476.7411pt x 129.48375pt>
+File: ../includes/figs/ru_shield2.png Graphic file (type png)
+<use ../includes/figs/ru_shield2.png>
+Package pdftex.def Info: ../includes/figs/ru_shield2.png  used on input line 96
+.
+(pdftex.def)             Requested size: 143.02342pt x 38.84541pt.
+File: ../includes/figs/ru_shield2.png Graphic file (type png)
+<use ../includes/figs/ru_shield2.png>
+Package pdftex.def Info: ../includes/figs/ru_shield2.png  used on input line 96
+.
+(pdftex.def)             Requested size: 143.02342pt x 38.84541pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
+
+(C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+(RED_landscape_poster.bbl)
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (2.22534pt too wide) in paragraph at lines 96--312
+[][]  [] 
+ []
+
+[2
+
+{C:/Users/court/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <../includes/
+figs/white.pdf> <../includes/figs/ru_shield2.png>] (RED_landscape_poster.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 21391 strings out of 474479
+ 470016 string characters out of 5742653
+ 1966542 words of memory out of 5000000
+ 43286 multiletter control sequences out of 15000+600000
+ 570751 words of font info for 59 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 117i,12n,121p,487b,1060s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\eccc1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcrm1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\court\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\court\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
+Output written on RED_landscape_poster.pdf (1 page, 302107 bytes).
+PDF statistics:
+ 284 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+
