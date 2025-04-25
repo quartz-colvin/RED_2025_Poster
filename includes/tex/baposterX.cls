@@ -364,7 +364,7 @@
 %%
 \define@cmdkey[ba]{posterbox}[baposter@box@]{cornerradius}          [1em]         {}
 \define@cmdkey[ba]{posterbox}[baposter@box@]{boxheaderheight}       [2em]         {}
-\define@cmdkey[ba]{posterbox}[baposter@box@]{boxpadding}            [0.5em]       {}
+\define@cmdkey[ba]{posterbox}[baposter@box@]{boxpadding}            [1em]       {}
 
 
 % textborder can be one of: none, bars, coils, triangles, rectangle, rounded,

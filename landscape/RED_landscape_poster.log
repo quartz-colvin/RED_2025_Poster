@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.4.20)  21 APR 2025 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.4.25)  25 APR 2025 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -900,11 +900,11 @@ File: ../includes/figs/ru_shield2.png Graphic file (type png)
 Package pdftex.def Info: ../includes/figs/ru_shield2.png  used on input line 96
 .
 (pdftex.def)             Requested size: 143.02342pt x 38.84541pt.
-File: ../includes/figs/ru_shield2.png Graphic file (type png)
-<use ../includes/figs/ru_shield2.png>
-Package pdftex.def Info: ../includes/figs/ru_shield2.png  used on input line 96
-.
-(pdftex.def)             Requested size: 143.02342pt x 38.84541pt.
+<../includes/figs/uni-graz.png, id=31, 243.91125pt x 207.77625pt>
+File: ../includes/figs/uni-graz.png Graphic file (type png)
+<use ../includes/figs/uni-graz.png>
+Package pdftex.def Info: ../includes/figs/uni-graz.png  used on input line 96.
+(pdftex.def)             Requested size: 73.17393pt x 62.33334pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
 
 (C:\Users\court\OneDrive\Desktop\MiKTeX_updated\tex/latex/amsfonts\umsa.fd
@@ -927,12 +927,27 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+<../includes/figs/tree7.png, id=34, 322.95656pt x 231.11343pt>
+File: ../includes/figs/tree7.png Graphic file (type png)
+<use ../includes/figs/tree7.png>
+Package pdftex.def Info: ../includes/figs/tree7.png  used on input line 224.
+(pdftex.def)             Requested size: 170.59511pt x 122.08046pt.
+<../includes/figs/tree8.png, id=35, 319.94531pt x 219.82124pt>
+File: ../includes/figs/tree8.png Graphic file (type png)
+<use ../includes/figs/tree8.png>
+Package pdftex.def Info: ../includes/figs/tree8.png  used on input line 224.
+(pdftex.def)             Requested size: 170.59511pt x 117.20908pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+<../includes/figs/tree9.png, id=36, 283.0575pt x 222.07968pt>
+File: ../includes/figs/tree9.png Graphic file (type png)
+<use ../includes/figs/tree9.png>
+Package pdftex.def Info: ../includes/figs/tree9.png  used on input line 258.
+(pdftex.def)             Requested size: 127.94714pt x 100.38223pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -940,43 +955,43 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (2.22534pt too wide) in paragraph at lines 96--312
+Overfull \hbox (2.22534pt too wide) in paragraph at lines 96--309
 [][]  [] 
  []
 
 [2
 
 {C:/Users/court/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <../includes/
-figs/white.pdf> <../includes/figs/ru_shield2.png>] (RED_landscape_poster.aux)
+figs/white.pdf> <../includes/figs/ru_shield2.png> <../includes/figs/uni-graz.pn
+g> <../includes/figs/tree7.png> <../includes/figs/tree8.png> <../includes/figs/
+tree9.png>] (RED_landscape_poster.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 21391 strings out of 474479
- 470016 string characters out of 5742653
- 1966542 words of memory out of 5000000
- 43286 multiletter control sequences out of 15000+600000
- 570751 words of font info for 59 fonts, out of 8000000 for 9000
+ 21427 strings out of 474479
+ 471091 string characters out of 5742653
+ 1961542 words of memory out of 5000000
+ 43321 multiletter control sequences out of 15000+600000
+ 571867 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,12n,121p,487b,1060s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
-1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\eccc1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\tcrm1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\court\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\court\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on RED_landscape_poster.pdf (1 page, 302107 bytes).
+0900.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm0900.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecti1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\eccc1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\court\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\court\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\court\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
+Output written on RED_landscape_poster.pdf (1 page, 381765 bytes).
 PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
+ 365 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

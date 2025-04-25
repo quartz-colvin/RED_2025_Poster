@@ -364,7 +364,7 @@
 %%
 \define@cmdkey[ba]{posterbox}[baposter@box@]{cornerradius}          [1em]         {}
 \define@cmdkey[ba]{posterbox}[baposter@box@]{boxheaderheight}       [2em]         {}
-\define@cmdkey[ba]{posterbox}[baposter@box@]{boxpadding}            [0.5em]       {}
+\define@cmdkey[ba]{posterbox}[baposter@box@]{boxpadding}            [1em]       {}
 
 
 % textborder can be one of: none, bars, coils, triangles, rectangle, rounded,
@@ -499,7 +499,7 @@
   boxColorOne=magenta,
   boxColorTwo=cyan,
   textborder=faded,
-  boxpadding=0.5em,
+  boxpadding=1em,
   % header
   headerfont=\scshape\Large,% or headerfont=\color{white}\textsf\textbf
   headerFontColor=black,
@@ -934,7 +934,7 @@
       }{}%
       \path[shape=coordinate] (\boxstartx+\boxwidth,0pt)                                                           coordinate(\baposter@box@name se);%
       }{\ifthenelse{\not \equal{\baposter@box@bottomaligned}{notset}}{%
-        \path[shape=coordinate] (\boxstartx+\boxwidth,0pt |- \baposter@box@bottomaligned se)                       coordinate(\baposter@box@name se);%
+        \path[shape=coordinate] (\boxstartx+\boxwidth,0pt |- \baposter@box@bottomaligned)                       coordinate(\baposter@box@name se);%
       }{{\ifthenelse{\not \equal{\baposter@box@above}{notset}}{%
         %% Above = Node%
         \path[shape=coordinate] (\boxstartx+\boxwidth,0pt |- \baposter@box@above nw)  +(0pt,\baposter@@colspacing) coordinate(\baposter@box@name se);%
