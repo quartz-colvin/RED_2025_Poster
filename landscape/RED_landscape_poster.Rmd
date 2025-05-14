@@ -64,7 +64,7 @@ output:
 
 \vspace{.1in}
 
-In this project, I provide data from two native speakers to show how reciprocals and reflexives are constructed and bound in White Hmong. I argue that White Hmong follows the ’traditional’ binding theory (\cite{reinhart1983}; \cite{chomsky1986}) and supports that vP and CP are phases in Hmong. I also show that the true reciprocal is a Voice head (not a DP) in Hmong and the `false’ reciprocal is a reflexive construction with dual or plural pronouns.
+In this project, I provide data from two native speakers to show how reciprocals and reflexives are constructed and bound in White Hmong. I argue that White Hmong follows the traditional binding theory (\cite{reinhart1983}; \cite{chomsky1986}) and supports that $v$P and CP are phases in Hmong. I also show that the true reciprocal is a Voice head (not a DP) in Hmong and the `false’ reciprocal is a reflexive construction with dual or plural pronouns.
 
 \vspace{.25in}
 
@@ -84,11 +84,11 @@ Empirically, Hmong has been understudied and most literature of the language are
 
 \vspace{.1in}
 
-\textbf{Fact 1:} The standard structure of reflexive DPs in Hmong is [Pro + Clf + kheej] (1-2)
+\textbf{Fact 1:} The standard structure of reflexive DPs in Hmong is [Pro + Clf + $kheej$] (1-2)
 
 \vspace{.1in}
 
-\textbf{Fact 2:} kheej ’self’ can occur alone as the object of a clause and bind to the subject (3).
+\textbf{Fact 2:} $kheej$ `self’ can occur alone as the object of a clause and bind to the subject (3).
 
 \vspace{.1in}
 
@@ -98,11 +98,11 @@ Empirically, Hmong has been understudied and most literature of the language are
 
 \begin{itemize}
 
-\item[A.] Method 1 is another kheej-reflexive construction using a dual pronoun (5).
+\item[A.] Method 1 is another $kheej$-reflexive construction using a dual pronoun (5).
 
 \vspace{.1in}
 
-\item[B.] Method 2 is a 'true reciprocal’ where the reciprocal sib is a Voice morpheme and not a nominal (4,6)
+\item[B.] Method 2 is a `true reciprocal’ where the reciprocal $sib$ is a Voice morpheme and not a nominal (4,6)
 
 \end{itemize}
 
@@ -146,13 +146,13 @@ Empirically, Hmong has been understudied and most literature of the language are
 
 \vspace{.1in}
 
-The clausal projection in Hmong is AspP instead of IP or TP since it doesn’t mark tense and is an analytic language (see \cite{lin2006} for Mandarin)
+The clausal projection in Hmong is AspP instead of IP or TP since it does not mark tense and is an analytic language (see \cite{lin2006} for Mandarin).
 
 \vspace{.2in}
 
-The subject raises from Spec,vP to Spec,AspP due to a strong EPP on Asp \cite{chomsky1982}.
+The subject raises from Spec,$v$P to Spec,AspP due to a strong EPP on Asp \cite{chomsky1982}.
 
-Binding domains are synonymous with phases \cite{chomsky1995}, so binding between the antecedent (in Spec,vP) and the reflexive (the sister of V) happens at the vP phase (7). The reflexive can either be kheej or a full reflexive DP.
+Binding domains are synonymous with phases \cite{chomsky1995}, so binding between the antecedent (in Spec,$v$P) and the reflexive (the sister of V) happens at the $v$P phase (7). The reflexive can either be $kheej$ or a full reflexive DP.
 
 \vspace{.15in}
 
@@ -168,7 +168,7 @@ Binding domains are synonymous with phases \cite{chomsky1995}, so binding betwee
 
 \vspace{.1in}
 
-I argue that the word sib is a Voice head and not an anaphoric DP
+I argue that the word $sib$ is a Voice head and not an anaphoric DP
 
 \vspace{.1in}
 
@@ -194,7 +194,7 @@ I'd like to acknowledge the guidance of Dr. Messick at Rutgers University and my
 
 \vspace{.1in}
 
-The final structure, (9), shows that the SVO word order truly is maintained when we have both sib and a DP object
+The final structure, (9), shows that the SVO word order truly is maintained when we have both $sib$ and a DP object
 
 \vspace{.1in}
 
@@ -206,12 +206,12 @@ The domain of the reciprocal meaning is the phase.
 
 \vspace{.1in}
 
-Before the subject raises out of the vP structure, it is established as the
+Before the subject raises out of the $v$P structure, it is established as the
 agent of the reciprocal action.
 
 \vspace{.1in}
 
-Not only is the domain of the reciprocal clear, but the timing of the reciprocal mapping is also clear!
+Not only is the domain of the reciprocal clear, but the timing of the reciprocal mapping is also clear.
 
 \vspace{.05in}
 
